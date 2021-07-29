@@ -26,8 +26,8 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "Let Go Records",
+  title: "Eddie Gordon",
   description:
-    "Let Go Records specialises in Music Production, ghost production.",
+    "Eddie Gordon specialises in Music Production, ghost production.",
   keywords: "Ghost Production, Music Services, Music consultancy.",
 };

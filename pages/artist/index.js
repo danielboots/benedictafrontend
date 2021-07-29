@@ -39,7 +39,7 @@ const artist = ({ artist }) => {
   }, []);
 
   return (
-    <Layout title="artists | EDM" description="artists | Let Go Records">
+    <Layout title="artists | EDM" description="artists | Eddie Gordon">
       <div>
         {/* Main container div */}
         <div

@@ -79,7 +79,7 @@ export default function Example() {
         </div>
 
         <p className="mt-8 text-center text-sm font-lighter text-gray-200 uppercase">
-          2021 Let Go Records LTD. All rights reserved.
+          2021 Eddie Gordon LTD. All rights reserved.
         </p>
         <div className=" flex justify-center mt-4 ">
           <img

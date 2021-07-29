@@ -5,7 +5,7 @@ import Info from "../components/Info";
 
 const contact = () => {
   return (
-    <Layout title="contact | EDM" description="contact| Let Go Records">
+    <Layout title="contact | EDM" description="contact| Eddie Gordon">
       <div className="relative bg-white font-body">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
@@ -70,7 +70,7 @@ const contact = () => {
                 <input
                   type="hidden"
                   name="_subject"
-                  value="New submission from Let Go Records!"
+                  value="New submission from Eddie Gordon!"
                 ></input>
                 <div>
                   <label htmlFor="full-name" className="sr-only">

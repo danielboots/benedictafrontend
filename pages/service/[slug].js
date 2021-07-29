@@ -12,7 +12,7 @@ const Service = ({
   tags,
 }) => {
   return (
-    <Layout title="About | EDM" description="About| Let Go Records">
+    <Layout title="About | EDM" description="About| Eddie Gordon">
       <div>
         <main>
           <article className="font-body  shadow-lg mx-auto ">

@@ -15,7 +15,7 @@ const Single = ({
   releasedate,
 }) => {
   return (
-    <Layout title={`Releases: ${name}`} description="Release| Let Go Records">
+    <Layout title={`Releases: ${name}`} description="Release| Eddie Gordon">
       <div>
         <main>
           <div>

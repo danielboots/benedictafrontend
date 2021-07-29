@@ -6,7 +6,7 @@ import Map from "@/components/Map";
 
 const Event = ({ headline, name, youtubeembed, image, writeup, location }) => {
   return (
-    <Layout title={`Event : ${name}`} description="Event| Let Go Records">
+    <Layout title={`Event : ${name}`} description="Event| Eddie Gordon">
       <div>
         {/* Main container div */}
         <div

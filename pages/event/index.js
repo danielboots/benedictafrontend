@@ -34,7 +34,7 @@ const event = ({ event }) => {
   }, []);
 
   return (
-    <Layout title="events | EDM" description="Events | Let Go Records">
+    <Layout title="events | EDM" description="Events | Eddie Gordon">
       <div>
         {/* Main container div */}
         <div

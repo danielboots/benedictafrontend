@@ -12,7 +12,7 @@ const Post = ({
   author,
 }) => {
   return (
-    <Layout title="About | EDM" description="About| Let Go Records posts">
+    <Layout title="About | EDM" description="About| Eddie Gordon posts">
       <div>
         <main>
           <div>
@@ -38,7 +38,7 @@ const Post = ({
                     <div className="prose text-justify leading-relaxed p-4  ">
                       <BlockContent
                         blocks={body}
-                        projectId="ta2muy7p"
+                        projectId="7mqb3aly"
                         dataset="production"
                       />
                     </div>

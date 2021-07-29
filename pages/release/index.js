@@ -40,7 +40,7 @@ const index = ({ release }) => {
   return (
     <Layout
       title="releases | EDM"
-      description="releases | Let Go Records releases"
+      description="releases | Eddie Gordon releases"
     >
       <div>
         <main>

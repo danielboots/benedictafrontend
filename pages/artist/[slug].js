@@ -5,7 +5,7 @@ import Info from "@/components/Info";
 
 const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
   return (
-    <Layout title={`Artist : ${name}`} description="About| Let Go Records">
+    <Layout title={`Artist : ${name}`} description="About| Eddie Gordon">
       <div>
         <main>
           <div>
@@ -39,7 +39,7 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
                     <BlockContent
                       className="text-justify text-lg "
                       blocks={bio}
-                      projectId="ta2muy7p"
+                      projectId="7mqb3aly"
                       dataset="production"
                     />
                   </div>
