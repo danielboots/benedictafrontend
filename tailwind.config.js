@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         gray: colors.gray,
         bluegray: colors.blueGray,
-        medblue: colors.blue,
+        rose: colors.rose,
       },
 
       fontFamily: {
