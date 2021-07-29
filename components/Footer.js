@@ -47,7 +47,7 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-gray-900 font-body">
+    <footer className="bg-rose-900 font-body">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         {/* <div className="border-b border-gray-600 border-opacity-50 w-50  my-4"></div> */}
         <nav
@@ -58,7 +58,7 @@ export default function Example() {
             <div key={item.name} className="px-5 py-2 uppercase font-semibold ">
               <a
                 href={item.href}
-                className="font-base text-gray-200 hover:text-gray-100 tracking-widest"
+                className="font-base text-bluegray-200 hover:text-bluegray-100 tracking-widest"
               >
                 {item.name}
               </a>
@@ -70,7 +70,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="text-indigo-100 hover:text-indigo-600"
+              className="text-rose-100 hover:text-rose-600"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -78,18 +78,18 @@ export default function Example() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-sm font-lighter text-gray-200 uppercase">
+        <p className="mt-8 text-center text-sm font-lighter text-bluegray-200 uppercase">
           2021 Eddie Gordon LTD. All rights reserved.
         </p>
         <div className=" flex justify-center mt-4 ">
           <img
             className=" h-10 w-auto animate-pulse"
-            src="/images/logocolor.png"
+            src="/images/eddierose1.png"
             alt=""
           />
         </div>
 
-        <p className="mt-4 text-center text-xs font-bold text-gray-200 uppercase tracking-widest ">
+        <p className="mt-4 text-center text-xs font-bold text-bluegray-200 uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
         </p>
       </div>

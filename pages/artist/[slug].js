@@ -27,12 +27,12 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
             <header className="">
               <div className=" h-full w-full flex items-center justify-center ">
                 <div className=" rounded p-1">
-                  <h2 className="text-2xl mb-4 flex justify-center font-black  text-gray-700 tracking-tight uppercase">
+                  <h2 className="text-2xl mb-4 flex justify-center font-black  text-bluegray-700 tracking-tight uppercase">
                     {tagline}
                   </h2>
                   <div className="prose  text-center my-10  ">
                     <div>
-                      <h2 className="text-2xl mb-4 flex text-left font-black  text-gray-700 tracking-tight uppercase">
+                      <h2 className="text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
                         Bio
                       </h2>
                     </div>
@@ -44,7 +44,7 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
                     />
                   </div>
                   <div>
-                    <h2 className="  text-2xl mb-4 flex text-left font-black  text-gray-700 tracking-tight uppercase">
+                    <h2 className="  text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
                       Spotify
                     </h2>
                   </div>
@@ -58,7 +58,7 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
                     ></iframe>
                   </div>
                   <div>
-                    <h2 className=" p-2 text-2xl mb-4 flex text-left font-black  text-gray-700 tracking-tight uppercase">
+                    <h2 className=" p-2 text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
                       Media
                     </h2>
                   </div>

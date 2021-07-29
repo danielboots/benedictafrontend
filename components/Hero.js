@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div>
       <div className={styles.herohome}>
-        <h1 className=" font-lake ml-6 z-20 animate-pulse   ">Eddie Gordon</h1>
+        <h1 className=" font-body ml-6 z-20 font-bold   ">Eddie Gordon</h1>
       </div>
     </div>
   );

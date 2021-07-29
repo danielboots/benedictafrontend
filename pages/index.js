@@ -2,7 +2,7 @@ import { sanityClient, urlFor } from "../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Post from "@/components/Post";
-import Carousel from "@/components/Carousel";
+
 import Release from "@/components/Release";
 import Artist from "@/components/Artist";
 import Hero from "@/components/Hero";
@@ -126,12 +126,12 @@ const Home = ({}) => {
         <Hero />
         <div className=" p-4 container mx-auto font-body py-4">
           <div className="mt-4  container mx-auto ">
-            <h1 className="flex justify-left text-4xl font-lake  sm:text-4xl ">
+            <h1 className="flex justify-left text-4xl font-body  sm:text-4xl ">
               Latest Releases...
             </h1>
             <hr className="mt-4" />
 
-            <Carousel />
+            {/* <Carousel /> */}
             <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
               {releaseData &&
                 releaseData.map((release) => (
@@ -145,7 +145,7 @@ const Home = ({}) => {
           <div>
             <div>
               <div className="  container mx-auto py-4 ">
-                <h1 className="flex justify-end text-3xl  font-lake  sm:text-4xl  ">
+                <h1 className="flex justify-end text-3xl  font-body  sm:text-4xl  ">
                   Our Artists...
                 </h1>
                 <hr className="mt-4" />
@@ -162,7 +162,7 @@ const Home = ({}) => {
             </div>
 
             <div className="  container mx-auto py-4">
-              <h1 className="flex justify-start text-3xl  font-lake  sm:text-4xl ">
+              <h1 className="flex justify-start text-3xl  font-body  sm:text-4xl ">
                 News...
               </h1>
               <hr className="mt-4" />

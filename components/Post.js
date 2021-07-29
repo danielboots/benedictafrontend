@@ -6,7 +6,7 @@ const Post = ({ post }) => {
       <article>
         <div>
           <div className="bg-white pt-4  rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-            <h2 className="text-center py-2 font-black uppercase  text-gray-800">
+            <h2 className="text-center py-2 font-black uppercase  text-bluegray-800">
               {post.title}
             </h2>
 
@@ -35,11 +35,11 @@ const Post = ({ post }) => {
               </button>
             </Link>
 
-            <p className="text-center font-medium text-gray-600 "></p>
+            <p className="text-center font-medium text-bluegray-600 "></p>
 
             <div className="m-4 text-center">
-              <span className="font-bold text-gray-600 "></span>
-              <span className="block text-gray-400 font-bold"></span>
+              <span className="font-bold text-bluegray-600 "></span>
+              <span className="block text-bluegray-400 font-bold"></span>
             </div>
           </div>
         </div>

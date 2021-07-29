@@ -19,7 +19,7 @@ const Service = ({
             <header className="">
               <div className=" h-full w-full flex items-center justify-center p-8">
                 <div className="bg-white rounded p-6">
-                  <h1 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
+                  <h1 className="text-4xl mb-4 flex justify-center font-black  text-bluegray-900 tracking-tight uppercase">
                     {title}
                   </h1>
                   <div>
@@ -33,7 +33,7 @@ const Service = ({
                   <Link href="/contact">
                     <button
                       type="button"
-                      className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-gray-900 hover:bg-gray-800 justify-end"
+                      className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-900 hover:bg-gray-800 justify-end"
                     >
                       Enquire ...
                     </button>

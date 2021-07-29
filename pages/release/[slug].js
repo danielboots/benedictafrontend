@@ -44,7 +44,7 @@ const Single = ({
         </header>
         <div className="container mx-auto ">
           <div className="p-2">
-            <h2 className="text-2xl mb-4 flex text-left font-black  text-gray-700 tracking-tight uppercase">
+            <h2 className="text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
               Release Writeup
             </h2>
             <p className="font-bold py-2">Released on: {releasedate}</p>
@@ -52,7 +52,7 @@ const Single = ({
             <p className="leading-relaxed text-lg">{writeup}</p>
           </div>
           <div className="p-2">
-            <h2 className="text-2xl mb-4 flex text-left font-black  text-gray-700 tracking-tight uppercase">
+            <h2 className="text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
               Media
             </h2>
           </div>

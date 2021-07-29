@@ -37,7 +37,7 @@ export default function Team() {
               About
             </h2>
 
-            <p className="text-lg text-gray-500 font-semibold">
+            <p className="text-lg text-bluegray-500 font-semibold">
               Eddie Gordon Productions dedicated team of music professionals
               curated by us to ensure we maintain the highest quality of results
               and work. From music producers to A&R, we can handle your project
@@ -60,12 +60,12 @@ export default function Team() {
                       <div className="space-y-4">
                         <div className="text-lg leading-6 font-bold  tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-indigo-600 font-bold tracking-tight ">
+                          <p className="text-rose-600 font-bold tracking-tight ">
                             {person.role}
                           </p>
                         </div>
                         <div className="text-lg">
-                          <p className="text-gray-600">
+                          <p className="text-bluegray-600">
                             {" "}
                             " <em>{person.bio}</em> "
                           </p>
@@ -74,7 +74,7 @@ export default function Team() {
                           <li>
                             <a
                               href={person.twitterUrl}
-                              className="text-gray-400 hover:text-gray-500"
+                              className="text-bluegray-400 hover:text-bluegray-500"
                             >
                               <span className="sr-only">Twitter</span>
                               <svg
@@ -90,7 +90,7 @@ export default function Team() {
                           <li>
                             <a
                               href={person.linkedinUrl}
-                              className="text-gray-400 hover:text-gray-500"
+                              className="text-bluegray-400 hover:text-bluegray-500"
                             >
                               <span className="sr-only">LinkedIn</span>
                               <svg

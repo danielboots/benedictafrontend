@@ -5,11 +5,11 @@ const Release = ({ release }) => {
     <div>
       <div>
         <div className="bg-white rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
-          <h2 className="text-center font-black uppercase  text-gray-800 m-2 tracking-wider">
+          <h2 className="text-center font-black uppercase  text-bluegray-800 m-2 tracking-wider">
             {release.headline}
           </h2>
 
-          <p className="text-center font-medium text-gray-600 "></p>
+          <p className="text-center font-medium text-bluegray-600 "></p>
           <img
             className="w-full h-16 sm:h-32 object-cover"
             src={release.image.asset.url}
@@ -20,7 +20,7 @@ const Release = ({ release }) => {
           <Link href={`release/${release.slug.current}`}>
             <button
               type="button"
-              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-gray-900 hover:bg-gray-800 justify-end"
+              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-900 hover:bg-gray-800 justify-end"
             >
               View Release ...
             </button>

@@ -25,10 +25,10 @@ const Event = ({ headline, name, youtubeembed, image, writeup, location }) => {
       <div className="font-body    bg-white container mx-auto ">
         <div className="m-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
           <div className="">
-            <h3 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
+            <h3 className="text-4xl mb-4 flex justify-center font-black  text-bluegray-900 tracking-tight uppercase">
               Event Details
             </h3>
-            <h1 className="text-4xl mb-4 flex justify-center   text-gray-700 tracking-tight uppercase">
+            <h1 className="text-4xl mb-4 flex justify-center   text-bluegray-700 tracking-tight uppercase">
               {name}
             </h1>
 
@@ -37,7 +37,7 @@ const Event = ({ headline, name, youtubeembed, image, writeup, location }) => {
             <p>{writeup}</p>
           </div>
           <div className="p4 mb-10">
-            <h3 className="text-4xl mb-4 flex justify-center font-black  text-gray-900 tracking-tight uppercase">
+            <h3 className="text-4xl mb-4 flex justify-center font-black  text-bluegray-900 tracking-tight uppercase">
               Location
             </h3>
             <Map location={location} />
