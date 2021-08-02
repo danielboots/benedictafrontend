@@ -11,13 +11,14 @@ const Info = () => {
       <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <h2 className="text-base font-thin uppercase tracking-wider text-white">
-            About Eddie Gordon
+            2021: Eddie Gordon
           </h2>
           <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
             For the love of Music
           </p>
           <p className="mt-3 text-lg text-white">
-            Eddie Gordon - We are all here but once. make it count.
+            This site is dedicated to my amazing daughter Olivia Alexandra
+            Gordon
           </p>
         </div>
       </div>

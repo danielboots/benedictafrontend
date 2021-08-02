@@ -37,7 +37,10 @@ const service = ({ service }) => {
   }, []);
 
   return (
-    <Layout title="services | EDM" description="services | Eddie Gordon">
+    <Layout
+      title="services | Eddie Gordon"
+      description="services | Eddie Gordon"
+    >
       <div className=" p-4 container mx-auto font-body ">
         <h1 className="flex justify-center text-2xl font-extrabold tracking-tight text-bluegray-900 sm:text-3xl ">
           Our Top Services

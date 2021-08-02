@@ -31,7 +31,10 @@ const post = ({ post }) => {
   }, []);
 
   return (
-    <Layout title="posts | EDM" description="posts | Eddie Gordon posts">
+    <Layout
+      title="posts | Eddie Gordon"
+      description="posts | Eddie Gordon posts"
+    >
       <div>
         {/* Main container div */}
         <div

@@ -39,7 +39,7 @@ const index = ({ release }) => {
 
   return (
     <Layout
-      title="releases | EDM"
+      title="releases | Eddie Gordon"
       description="releases | Eddie Gordon releases"
     >
       <div>

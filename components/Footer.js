@@ -1,9 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   main: [
-    { name: "About", href: "#" },
+    // { name: "About", href: "#" },
     { name: "News", href: "#" },
-    { name: "Services", href: "#" },
+    // { name: "Services", href: "#" },
     { name: "Contact", href: "#" },
   ],
   social: [
@@ -70,7 +70,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="text-rose-100 hover:text-rose-600"
+              className="text-white hover:text-rose-200"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -78,9 +78,12 @@ export default function Example() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-sm font-lighter text-bluegray-200 uppercase">
+        <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
           2021 Eddie Gordon LTD. All rights reserved.
         </p>
+        {/* <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
+          This site is dedicated to my amazing daughter Olivia Alexandra Gordon
+        </p> */}
         <div className=" flex justify-center mt-4 ">
           <img
             className=" h-10 w-auto animate-pulse"
@@ -89,7 +92,7 @@ export default function Example() {
           />
         </div>
 
-        <p className="mt-4 text-center text-xs font-bold text-bluegray-200 uppercase tracking-widest ">
+        <p className="mt-4 text-center text-xs font-bold text-white uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
         </p>
       </div>

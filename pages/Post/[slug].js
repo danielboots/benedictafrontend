@@ -12,7 +12,10 @@ const Post = ({
   author,
 }) => {
   return (
-    <Layout title="About | EDM" description="About| Eddie Gordon posts">
+    <Layout
+      title="About | Eddie Gordon"
+      description="About| Eddie Gordon posts"
+    >
       <div>
         <main>
           <div>

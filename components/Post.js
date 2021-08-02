@@ -4,8 +4,8 @@ const Post = ({ post }) => {
   return (
     <div>
       <article>
-        <div>
-          <div className="bg-white pt-4  rounded-lg overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
+        <div className="">
+          <div className="bg-white pt-4 overflow-hidden shadow-lg  hover:shadow-2xl transition duration-300 ease-in-out relative border-1">
             <h2 className="text-center py-2 font-black uppercase  text-bluegray-800">
               {post.title}
             </h2>
@@ -29,9 +29,9 @@ const Post = ({ post }) => {
             <Link href={`post/${post.slug.current}`}>
               <button
                 type="button"
-                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-indigo-800 hover:g-indigo-600 justify-end"
+                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-800 hover:bg-rose-700 justify-end"
               >
-                Read Article...
+                Read more...
               </button>
             </Link>
 
