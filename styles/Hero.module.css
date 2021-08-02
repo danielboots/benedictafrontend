@@ -1,5 +1,5 @@
 .herohome {
-  background: url("/images/mamboheader.webp") no-repeat center center fixed;
+  background: url("/images/mambo2.jpeg") no-repeat center top fixed;
   background-size: cover;
   margin: auto;
   height: 40vh;
@@ -20,12 +20,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #88143773;
+  background-color: #88143700;
 }
 
 @media (max-width: 960px) {
   .herohome {
-    background: url("/images/mamboheader.webp") no-repeat center center fixed;
+    background: url("/images/mambo2.jpeg") no-repeat center top fixed;
     background-size: cover;
     margin: auto;
     height: 40vh;
