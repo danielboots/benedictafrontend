@@ -40,7 +40,7 @@ const Home = ({}) => {
         <div className=" p-4 container mx-auto font-body py-4">
           <div>
             <h1 className="flex justify-start text-3xl  font-body  font-bold sm:text-4xl ">
-              Welcome
+              Latest...
             </h1>
 
             <div className=" my-6 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
