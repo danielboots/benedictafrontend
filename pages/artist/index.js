@@ -67,7 +67,6 @@ const artist = ({ artist }) => {
             ))}
         </div>
       </div>
-      <Info />
     </Layout>
   );
 };

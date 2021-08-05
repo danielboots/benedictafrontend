@@ -43,8 +43,6 @@ const Event = ({ headline, name, youtubeembed, image, writeup, location }) => {
           </div>
         </div>
       </div>
-
-      <Info />
     </Layout>
   );
 };
