@@ -83,9 +83,13 @@ export default function Example() {
           . All rights reserved.
         </p>
 
-        <div className=" flex justify-center ">
-          <img className=" h-10 w-auto animate-pulse" src="/" alt="" />
-        </div>
+        {/* <div className=" flex justify-center ">
+          <img
+            className=" h-10 w-auto animate-pulse"
+            src="/logo-benedicta.png"
+            alt=""
+          />
+        </div> */}
 
         <p className="text-center text-xs font-bold text-white uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
