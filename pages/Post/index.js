@@ -58,7 +58,6 @@ const post = ({ post }) => {
             ))}
         </div>
       </div>
-      <Info />
     </Layout>
   );
 };
