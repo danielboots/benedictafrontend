@@ -21,7 +21,7 @@ const Post = ({ post }) => {
               <BlockContent
                 key={post.id}
                 blocks={post.body}
-                projectId="7mqb3aly"
+                projectId="2u40tgdo"
                 dataset="production"
               />
             </div> */}

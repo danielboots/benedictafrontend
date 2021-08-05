@@ -2,7 +2,7 @@ import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Artist from "@/components/Artist";
-import Info from "@/components/Info";
+
 import Hero from "@/components/Hero";
 
 const artist = ({ artist }) => {
@@ -39,7 +39,10 @@ const artist = ({ artist }) => {
   }, []);
 
   return (
-    <Layout title="artists | Eddie Gordon" description="artists | Eddie Gordon">
+    <Layout
+      title="artists | Benedicta Syran"
+      description="artists | Benedicta Syran"
+    >
       <div>
         {/* Main container div */}
         <div

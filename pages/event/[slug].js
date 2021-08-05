@@ -1,12 +1,11 @@
 import { sanityClient, urlFor } from "../../sanity";
 import Layout from "@/components/Layout";
 
-import Info from "@/components/Info";
 import Map from "@/components/Map";
 
 const Event = ({ headline, name, youtubeembed, image, writeup, location }) => {
   return (
-    <Layout title={`Event : ${name}`} description="Event| Eddie Gordon">
+    <Layout title={`Event : ${name}`} description="Event| Benedicta Syran">
       <div>
         {/* Main container div */}
         <div

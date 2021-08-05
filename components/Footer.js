@@ -79,7 +79,7 @@ export default function Example() {
         </div>
 
         <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
-          2021 Eddie Gordon LTD. All rights reserved.
+          2021 Benedicta Syran LTD. All rights reserved.
         </p>
         {/* <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
           This site is dedicated to my amazing daughter Olivia Alexandra Gordon

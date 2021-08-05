@@ -2,7 +2,6 @@ import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Post from "@/components/Post";
-import Info from "@/components/Info";
 
 const post = ({ post }) => {
   const [postData, setPostData] = useState(null);
@@ -32,8 +31,8 @@ const post = ({ post }) => {
 
   return (
     <Layout
-      title="posts | Eddie Gordon"
-      description="posts | Eddie Gordon posts"
+      title="posts | Benedicta Syran"
+      description="posts | Benedicta Syran posts"
     >
       <div>
         {/* Main container div */}

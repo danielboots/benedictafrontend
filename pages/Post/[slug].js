@@ -1,6 +1,7 @@
 import { sanityClient, urlFor } from "../../sanity";
 import Layout from "@/components/Layout";
-import BlockContent from "@sanity/block-content-to-react";
+
+import PortableText from "@sanity/block-content-to-react";
 
 const Post = ({
   title,
@@ -13,8 +14,8 @@ const Post = ({
 }) => {
   return (
     <Layout
-      title="About | Eddie Gordon"
-      description="About| Eddie Gordon posts"
+      title="About | Benedicta Syran"
+      description="About| Benedicta Syran posts"
     >
       <div>
         <main>
@@ -39,9 +40,9 @@ const Post = ({
                 <div className="bg-white rounded p-6">
                   <div>
                     <div className="prose text-justify leading-relaxed p-4  ">
-                      <BlockContent
+                      <PortableText
                         blocks={body}
-                        projectId="7mqb3aly"
+                        projectId="2u40tgdo"
                         dataset="production"
                       />
                     </div>

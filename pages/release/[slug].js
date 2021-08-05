@@ -1,7 +1,6 @@
 import { sanityClient, urlFor } from "../../sanity";
 import Layout from "@/components/Layout";
 // import BlockContent from "@sanity/block-content-to-react";
-import Info from "@/components/Info";
 
 const Single = ({
   headline,
@@ -15,7 +14,7 @@ const Single = ({
   releasedate,
 }) => {
   return (
-    <Layout title={`Releases: ${name}`} description="Release| Eddie Gordon">
+    <Layout title={`Releases: ${name}`} description="Release| Benedicta Syran">
       <div>
         <main>
           <div>
@@ -87,8 +86,6 @@ const Single = ({
           <p></p>
         </div>
       </article>
-
-      <Info />
     </Layout>
   );
 };

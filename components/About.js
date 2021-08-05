@@ -7,7 +7,7 @@ const About = () => {
         </h2>
         <hr />
         <p className=" mt-2 text-bluegray-100 text-3xl font-extrabold tracking-tight sm:text-4xl">
-          Fast Forward your music career...
+          text here
         </p>
         <div className="md:ml-auto md:w-1/2 md:pl-10"></div>
       </div>

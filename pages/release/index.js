@@ -2,7 +2,6 @@ import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Release from "@/components/Release";
-import Info from "@/components/Info";
 
 const index = ({ release }) => {
   const [releaseData, setreleaseData] = useState(null);
@@ -39,8 +38,8 @@ const index = ({ release }) => {
 
   return (
     <Layout
-      title="releases | Eddie Gordon"
-      description="releases | Eddie Gordon releases"
+      title="releases | Benedicta Syran"
+      description="releases | Benedicta Syran releases"
     >
       <div>
         <main>

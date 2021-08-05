@@ -2,7 +2,6 @@ import { sanityClient, urlFor } from "../../sanity";
 import React, { useState, useEffect } from "react";
 import Layout from "@/components/Layout";
 import Event from "@/components/Event";
-import Info from "@/components/Info";
 
 const event = ({ event }) => {
   const [eventData, setEvent] = useState(null);
@@ -34,7 +33,10 @@ const event = ({ event }) => {
   }, []);
 
   return (
-    <Layout title="events | Eddie Gordon" description="Events | Eddie Gordon">
+    <Layout
+      title="events | Benedicta Syran"
+      description="Events | Benedicta Syran"
+    >
       <div>
         {/* Main container div */}
         <div
@@ -60,7 +62,6 @@ const event = ({ event }) => {
             ))}
         </div>
       </div>
-      <Info />
     </Layout>
   );
 };

@@ -1,11 +1,10 @@
 import { sanityClient, urlFor } from "../../sanity";
 import Layout from "@/components/Layout";
 import BlockContent from "@sanity/block-content-to-react";
-import Info from "@/components/Info";
 
 const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
   return (
-    <Layout title={`Artist : ${name}`} description="About| Eddie Gordon">
+    <Layout title={`Artist : ${name}`} description="About| Benedicta Syran">
       <div>
         <main>
           <div>
@@ -39,7 +38,7 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
                     <BlockContent
                       className="text-justify text-lg "
                       blocks={bio}
-                      projectId="7mqb3aly"
+                      projectId="2u40tgdo"
                       dataset="production"
                     />
                   </div>
@@ -81,7 +80,6 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
           </article>
         </main>
       </div>
-      <Info />
     </Layout>
   );
 };

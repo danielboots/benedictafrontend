@@ -6,7 +6,6 @@ import Post from "@/components/Post";
 import Release from "@/components/Release";
 import FeatureTitle from "@/components/FeatureTitle";
 import Hero from "@/components/Hero";
-import Info from "@/components/Info";
 
 const Home = ({}) => {
   const [postData, setPost] = useState(null);
@@ -54,7 +53,6 @@ const Home = ({}) => {
           </div>
         </div>
       </div>
-      <Info />
     </Layout>
   );
 };

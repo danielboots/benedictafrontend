@@ -13,16 +13,9 @@ const FeatureTitle = () => {
       <div className=" px-4 mb-6 flex">
         <div className=" pt-4">
           <div className="text-3xl font-bold pb-4 tracking-wide text-gray-900 text-s">
-            Introduction
+            Meet Benedicta Syran
           </div>
-          "There are certain things, events, companies and especially people who
-          have shaped the dance music world that we DJs (and the music listening
-          public) know and love. Without these historical contributing factors,
-          the importance of dance music in our lives may not be as profound, the
-          radio we listen to could be lacklustre at best and the current digital
-          dynamic for music distribution and sales would not be as elevated. I
-          could list contributing individuals on just two hands - and one of
-          those people is Eddie Gordon."
+          "llorem ipsum"
         </div>
       </div>
 

@@ -12,7 +12,10 @@ const Service = ({
   tags,
 }) => {
   return (
-    <Layout title="About | Eddie Gordon" description="About| Eddie Gordon">
+    <Layout
+      title="About | Benedicta Syran"
+      description="About| Benedicta Syran"
+    >
       <div>
         <main>
           <article className="font-body  shadow-lg mx-auto ">
