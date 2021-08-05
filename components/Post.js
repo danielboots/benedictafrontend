@@ -16,7 +16,7 @@ const Post = ({ post }) => {
               alt="alt image name"
             />
 
-            {/* <div className="prose text-center">
+            {/* <div className="ppink text-center">
               Content goes here!
               <BlockContent
                 key={post.id}
@@ -29,7 +29,7 @@ const Post = ({ post }) => {
             <Link href={`post/${post.slug.current}`}>
               <button
                 type="button"
-                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-800 hover:bg-rose-700 justify-end"
+                className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-pink-800 hover:bg-pink-700 justify-end"
               >
                 Read more...
               </button>

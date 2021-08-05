@@ -29,7 +29,7 @@ const Artist = ({ tagline, name, youtubeembed, spotifyembed, image, bio }) => {
                   <h2 className="text-2xl mb-4 flex justify-center font-black  text-bluegray-700 tracking-tight uppercase">
                     {tagline}
                   </h2>
-                  <div className="prose  text-center my-10  ">
+                  <div className="ppink  text-center my-10  ">
                     <div>
                       <h2 className="text-2xl mb-4 flex text-left font-black  text-bluegray-700 tracking-tight uppercase">
                         Bio

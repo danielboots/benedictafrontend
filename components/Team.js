@@ -60,7 +60,7 @@ export default function Team() {
                       <div className="space-y-4">
                         <div className="text-lg leading-6 font-bold  tracking-wider space-y-1">
                           <h3>{person.name}</h3>
-                          <p className="text-rose-600 font-bold tracking-tight ">
+                          <p className="text-pink-600 font-bold tracking-tight ">
                             {person.role}
                           </p>
                         </div>

@@ -8,12 +8,15 @@ module.exports = {
       colors: {
         gray: colors.gray,
         bluegray: colors.blueGray,
+        pink: colors.pink,
         rose: colors.rose,
+        orange: colors.orange,
+        fuchsia: colors.fuchsia,
       },
 
       fontFamily: {
         body: ["Red Hat Display"],
-        lake: ["Lake"],
+        Benedicta: ["Benedicta"],
       },
 
       height: {

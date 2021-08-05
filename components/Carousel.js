@@ -11,7 +11,7 @@ const EmblaCarousel = () => {
   }, [emblaApi]);
   return (
     <div
-      className="embla overflow-hidden h-96   bg-rose-900 filter grayscale"
+      className="embla overflow-hidden h-96   bg-pink-900 filter grayscale"
       ref={emblaRef}
     >
       <div className="embla__container flex ">

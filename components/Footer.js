@@ -47,7 +47,7 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-rose-900 font-body">
+    <footer className="bg-fuchsia-200 font-body  text-pink-400">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         {/* <div className="border-b border-gray-600 border-opacity-50 w-50  my-4"></div> */}
         <nav
@@ -58,7 +58,7 @@ export default function Example() {
             <div key={item.name} className="px-5 py-2 uppercase font-semibold ">
               <a
                 href={item.href}
-                className="font-base text-bluegray-200 hover:text-bluegray-100 tracking-widest"
+                className="font-base  hover:text-bluegray-100 tracking-widest"
               >
                 {item.name}
               </a>
@@ -70,7 +70,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="text-white hover:text-rose-200"
+              className="text-pink-400 hover:text-pink-200"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -78,21 +78,15 @@ export default function Example() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
+        <p className="mt-8 text-center text-sm font-lighter  uppercase">
           2021 Benedicta Syran LTD. All rights reserved.
         </p>
-        {/* <p className="mt-8 text-center text-sm font-lighter text-white uppercase">
-          This site is dedicated to my amazing daughter Olivia Alexandra Gordon
-        </p> */}
+
         <div className=" flex justify-center mt-4 ">
-          <img
-            className=" h-10 w-auto animate-pulse"
-            src="/images/eddierose1.png"
-            alt=""
-          />
+          <img className=" h-10 w-auto animate-pulse" src="/" alt="" />
         </div>
 
-        <p className="mt-4 text-center text-xs font-bold text-white uppercase tracking-widest ">
+        <p className="mt-4 text-center text-xs font-bold  uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
         </p>
       </div>

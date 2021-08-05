@@ -22,7 +22,7 @@ const Event = ({ event }) => {
           <Link href={`event/${event.slug.current}`}>
             <button
               type="button"
-              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-900 hover:bg-gray-800 justify-end"
+              className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-pink-900 hover:bg-gray-800 justify-end"
             >
               event Profile ...
             </button>

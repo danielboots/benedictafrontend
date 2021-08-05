@@ -32,11 +32,11 @@ const Service = ({
                       alt="alt tag"
                     />
                   </div>
-                  <div className="prose  text-center my-10 ">{description}</div>
+                  <div className="ppink  text-center my-10 ">{description}</div>
                   <Link href="/contact">
                     <button
                       type="button"
-                      className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-rose-900 hover:bg-gray-800 justify-end"
+                      className=" m-3 py-3 px-4  uppercase  text-xs  rounded-sm font-bold  text-white bg-pink-900 hover:bg-gray-800 justify-end"
                     >
                       Enquire ...
                     </button>

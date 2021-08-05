@@ -39,7 +39,7 @@ const Post = ({
               <div className=" h-full w-full flex items-center justify-center">
                 <div className="bg-white rounded p-6">
                   <div>
-                    <div className="prose text-justify leading-relaxed p-4  ">
+                    <div className="ppink text-justify leading-relaxed p-4  ">
                       <PortableText
                         blocks={body}
                         projectId="2u40tgdo"

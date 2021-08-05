@@ -33,7 +33,7 @@ const Home = ({}) => {
 
   return (
     <Layout>
-      <div className="font-body">
+      <div className="font-body ">
         <Hero />
         <FeatureTitle />
         <div className=" p-4 container mx-auto font-body py-4">
