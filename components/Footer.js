@@ -48,9 +48,9 @@ const navigation = {
 export default function Example() {
   return (
     <footer className="bg-fuchsia-200 font-body  text-pink-400">
-      <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-6  overflow-hidden sm:px-6 lg:px-8">
         {/* <div className="border-b border-gray-600 border-opacity-50 w-50  my-4"></div> */}
-        <nav
+        {/* <nav
           className="-mx-5 my-2 flex flex-wrap justify-center mt-8"
           aria-label="Footer"
         >
@@ -64,8 +64,8 @@ export default function Example() {
               </a>
             </div>
           ))}
-        </nav>
-        <div className="mt-8 flex justify-center space-x-6 my-3 pb-3">
+        </nav> */}
+        <div className="mt-8 flex justify-center space-x-6  pb-3">
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -78,15 +78,16 @@ export default function Example() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-sm font-lighter  uppercase">
-          2021 Benedicta Syran LTD. All rights reserved.
+        <p className=" text-center text-sm font-lighter mt-4 ">
+          2021 <span className="font-Benedicta text-4xl">Benedicta Syran</span>{" "}
+          . All rights reserved.
         </p>
 
-        <div className=" flex justify-center mt-4 ">
+        <div className=" flex justify-center ">
           <img className=" h-10 w-auto animate-pulse" src="/" alt="" />
         </div>
 
-        <p className="mt-4 text-center text-xs font-bold  uppercase tracking-widest ">
+        <p className="text-center text-xs font-bold text-white uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
         </p>
       </div>
