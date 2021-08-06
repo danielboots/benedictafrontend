@@ -25,7 +25,6 @@ export default function Layout({ title, keywords, description, children }) {
 
 Layout.defaultProps = {
   title: "Benedicta Syran",
-  description:
-    "Benedicta Syran specialises in Music Production, ghost production.",
-  keywords: "Ghost Production, Music Services, Music consultancy.",
+  description: "Benedicta Syran - Singer Songwriter",
+  keywords: "Singer Songwriter.",
 };
