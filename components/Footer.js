@@ -78,18 +78,18 @@ export default function Example() {
           ))}
         </div>
 
-        <p className=" text-center text-sm font-lighter mt-4 ">
+        {/* <p className=" text-center text-sm font-lighter mt-4 ">
           2021 <span className="font-Benedicta text-4xl">Benedicta Syran</span>{" "}
           . All rights reserved.
-        </p>
+        </p> */}
 
-        {/* <div className=" flex justify-center ">
+        <div className=" flex justify-center ">
           <img
-            className=" h-10 w-auto animate-pulse"
-            src="/logo-benedicta.png"
+            className=" h-20 w-auto animate-pulse"
+            src="/images/name-benedicta.png"
             alt=""
           />
-        </div> */}
+        </div>
 
         <p className="text-center text-xs font-bold text-white uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>
