@@ -67,29 +67,25 @@ export default function Example() {
         </nav> */}
         <div className="mt-8 flex justify-center space-x-6  pb-3">
           {navigation.social.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-pink-400 hover:text-pink-200"
-            >
+            <a key={item.name} href={item.href} className="text-white">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
 
-        {/* <p className=" text-center text-sm font-lighter mt-4 ">
-          2021 <span className="font-Benedicta text-4xl">Benedicta Syran</span>{" "}
-          . All rights reserved.
-        </p> */}
+        <p className=" text-center text-sm font-lighter mt-4 ">
+          <span className="font-BScript text-4xl">Benedicta</span> . All rights
+          reserved.
+        </p>
 
-        <div className=" flex justify-center ">
+        {/* <div className=" flex justify-center ">
           <img
             className=" h-20 w-auto animate-pulse"
             src="/images/name-benedicta.png"
             alt=""
           />
-        </div>
+        </div> */}
 
         <p className="text-center text-xs font-bold text-white uppercase tracking-widest ">
           Web Dev By: <a href="https://vuhze.com">VUHZE Tech</a>

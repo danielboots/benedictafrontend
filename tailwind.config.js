@@ -16,7 +16,8 @@ module.exports = {
 
       fontFamily: {
         body: ["Montserrat"],
-        Benedicta: ["Benedicta"],
+        BSerif: ["BSerif"],
+        BScript: ["BScript"],
       },
 
       height: {

@@ -20,8 +20,8 @@ export default function Header() {
             <div className="flex justify-between  relative">
               <ul className=" font-body   ">
                 <Link href="/">
-                  <li className="text-3xl space-x-8  font-Benedicta  font-bold tracking-widest text-white  mr-6">
-                    Benedicta <span>Syran</span>
+                  <li className="text-2xl space-x-8  font-BScript   tracking-widest text-white  mr-6">
+                    Benedicta
                   </li>
                 </Link>
                 {/* <Link href="/">
@@ -42,7 +42,7 @@ export default function Header() {
 
               {/* hides content on small screens */}
               <div className="hidden sm:ml-6 sm:block">
-                <ul className="   space-x-8  font-Benedicta text-3xl font-bold tracking-widest text-white  mr-6">
+                <ul className="   space-x-6  font-body uppercase text-sm  tracking-widest text-white  mr-6">
                   <Link href="/about">
                     <a className="hover:text-fuchsia-200">About</a>
                   </Link>

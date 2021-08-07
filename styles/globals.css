@@ -5,9 +5,15 @@
 
 @layer base {
   @font-face {
-    font-family: "Benedicta";
+    font-family: "BSerif";
     font-weight: 400;
-    src: url("/fonts/benedicta.woff2") format("woff2"),
-      url("/fonts/benedicta.woff") format("woff");
+    src: url("/fonts/BSerif.woff2") format("woff2"),
+      url("/fonts/BSerif.woff") format("woff");
+  }
+  @font-face {
+    font-family: "BScript";
+    font-weight: 400;
+    src: url("/fonts/BScript.woff2") format("woff2"),
+      url("/fonts/BScript.woff") format("woff");
   }
 }
