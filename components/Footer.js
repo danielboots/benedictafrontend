@@ -47,7 +47,7 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-fuchsia-200 font-body  text-pink-400">
+    <footer className="bg-blue-100 font-body  text-pink-400">
       <div className="max-w-7xl mx-auto py-6  overflow-hidden sm:px-6 lg:px-8">
         {/* <div className="border-b border-gray-600 border-opacity-50 w-50  my-4"></div> */}
         {/* <nav
