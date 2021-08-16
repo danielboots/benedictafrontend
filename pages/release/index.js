@@ -15,8 +15,6 @@ const index = ({ release }) => {
         headline,
         name,
         slug,
-        
-       
         releasedate,
         spotifyembed,
         youtubeembed,
@@ -47,7 +45,8 @@ const index = ({ release }) => {
             {/* Main container div */}
             <div
               style={{
-                backgroundImage: "url(" + "/images/ultra.webp" + ")",
+                backgroundImage: "url(" + "/images/heroalt.webp" + ")",
+                marginTop: -80,
               }}
               className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-40v flex justify-center items-center flex-col "
             >

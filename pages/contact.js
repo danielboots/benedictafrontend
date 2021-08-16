@@ -8,6 +8,21 @@ const contact = () => {
       title="contact | Benedicta Syran"
       description="contact| Benedicta Syran"
     >
+      <div>
+        {/* Main container div */}
+        <div
+          style={{
+            backgroundImage: "url(" + "/images/heroalt.webp" + ")",
+            marginTop: -80,
+          }}
+          className=" bg-center bg-cover bg-no-repeat m-auto bg-fixed relative h-40v flex justify-center items-center flex-col "
+        >
+          <div className="absolute h-full w-full flex overflow-x-auto bg-coolgray-900 bg-opacity-50 backdrop-filter  "></div>
+          <h1 className=" text-white z-20 uppercase font-body text-center font-bold  tracking-wider text-3xl  sm:text-4xl md:text-6xl ">
+            Releases
+          </h1>
+        </div>
+      </div>
       <div className="relative bg-white font-body">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />

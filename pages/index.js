@@ -36,7 +36,7 @@ const Home = ({}) => {
       <div className="font-body ">
         <Hero />
         {/* <FeatureTitle /> */}
-        <div className=" p-4 container mx-auto font-body py-4">
+        {/* <div className=" p-4 container mx-auto font-body py-4">
           <div>
             <h1 className="flex justify-start text-3xl  font-BSerif   sm:text-4xl ">
               Latest from
@@ -60,7 +60,7 @@ const Home = ({}) => {
                 ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

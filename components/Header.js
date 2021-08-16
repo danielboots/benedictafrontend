@@ -21,7 +21,7 @@ export default function Header() {
               <ul className=" font-body   ">
                 <Link href="/">
                   <li className="text-2xl space-x-8  font-BScript   tracking-widest text-white  mr-6">
-                    Benedicta
+                    BSyran
                   </li>
                 </Link>
                 {/* <Link href="/">
@@ -47,8 +47,11 @@ export default function Header() {
                     <a className="hover:text-fuchsia-200">About</a>
                   </Link>
 
-                  <Link href="/Post">
+                  <Link href="/post">
                     <a className="hover:text-fuchsia-200">News</a>
+                  </Link>
+                  <Link href="/release">
+                    <a className="hover:text-fuchsia-200">Releases</a>
                   </Link>
                   <Link href="/contact">
                     <a className="hover:text-fuchsia-200">Contact</a>
